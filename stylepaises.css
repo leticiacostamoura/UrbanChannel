@@ -1,0 +1,77 @@
+body {
+    background-color: #e2dfdf;
+}
+.capa{
+    height: 560px;
+    width: 1400px;
+    filter: grayscale(40%);
+    filter: brightness(60%);
+}
+
+.foto1, .foto3, .foto5{
+    width: 500px;
+    height: 220px;
+    margin-left: 2cm;
+}
+
+.foto2, .foto4{
+    width: 500px;
+    height: 220px;
+    margin-right: 2cm;
+}
+h1.tt1{
+    color:#000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 7cm;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+h1.pais1, .pais2, .pais3, .pais4, .pais5{
+    margin-left: 2cm;
+    font-family: serif;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #1b1515;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+.p1{
+    text-align: justify;
+    margin-left: 2cm;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2, .p4, .p6{
+    text-align: justify;
+    font-size: 19px;
+    font-family: arial;
+    margin-right: 2cm;
+    margin-left: 17cm;
+    text-indent: 2.5em;
+}
+.p3, .p5{
+    text-align: justify;
+    font-size: 19px;
+    font-family: arial;
+    margin-right: 17cm;
+    margin-left: 2cm;
+    text-indent: 2.5em;
+}
+
+div.bt1{
+    float: left;
+    display: flex;
+    margin-left: 2cm;
+    margin-top: 0.7cm;
+}
+div.bt2{
+    float:right;
+    display: flex;
+    margin-right: 2cm;
+    margin-top: 0.7cm;
+}
+
+

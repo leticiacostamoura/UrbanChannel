@@ -1,0 +1,212 @@
+<!DOCTYPE html> 
+
+<html lang="pt-br"> 
+
+<head> 
+    <link rel="stylesheet" href="menu.css">
+
+    <meta charset="UTF-8"> 
+
+    <meta http-equiv="X-UA-compatible" content="IE=edge"> 
+
+    <meta name="viewport" content="widt =device-width,initial-scale=1.0"> 
+
+    <title>Questionario</title> 
+
+    <style> 
+
+        body{ 
+            font-family:21px serif; 
+            background-image: url(fundo.questionário.jpeg); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 130vh;
+        }
+        .box{ 
+            color:black; 
+            position: absolute; 
+            left:50%; 
+            margin-bottom: 2cm;
+            margin-top: -10px;
+            transform: translate(-50%,20%); 
+            background-color: #e2dfdf; 
+            padding: 15px; 
+            border-radius: 15px; 
+            width: 80%; 
+        } 
+
+        fieldset{ 
+            border: 3px solid  rgb(168, 155, 82); 
+        } 
+
+        legend{ 
+            border: 1px solid  rgb(168, 155, 82); 
+            padding: 10px; 
+            text-align: center; 
+            background-color:  rgb(168, 155, 82); 
+            border-radius: 8px; 
+        } 
+
+        .inputBox{ 
+            position: relative; 
+            margin-left: 1cm;
+            margin-right: 2.5cm;
+        } 
+
+        p, input{
+            margin-left: 1cm;
+            margin-right: 1cm; 
+        }
+        
+        .inicio{
+            margin-left: 8.5cm;
+        }
+        .resposta{
+            margin-left: -1cm;
+            margin-right: -1cm;
+        }
+        .respostat{
+            margin-left: -1cm;
+            margin-right: -2cm;
+        }
+
+        #button{ 
+            background-color: #e2dfdf; 
+            width: 80%; 
+            border: 1px solid black; 
+            padding: 12px; 
+            color: rgb(0, 0, 0); 
+            font-size: 18px; 
+            font-weight: bold;
+            cursor: pointer; 
+            border-radius: 10px; 
+            margin-left: 2.5cm;
+            margin-block-end: 0.2cm;
+        } 
+
+        #button:hover{ 
+            background-image:linear-gradient(to right, rgb(168, 155, 82),rgb(48, 35, 15)); 
+            color: #e2dfdf;
+        } 
+    
+</style> 
+</head> 
+
+<body> 
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <h1 class="lg">Urban <span class="s1">Channel</span></h1>            
+             </div>
+            <ul>
+                <li><a href="URBAN CHANNEL HOME.html">Home</a></li>
+                <li><a href="#">Mobilidade urbana</a>
+                    <ul>
+                        <li><a href="Conceito.html"> Conceito </a></li>
+                        <li><a href="MOB SUSTENTÁVEL SITE.html"> Mobilidade sustentável </a></li>
+                        <li><a href="países referência.html"> Países referência </a></li>
+                    </ul>
+                </li>
+                <li><a href="Questionário.html">Questionário</a></li>
+                <li><a href="Contato site.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+<div class="box"> 
+<fieldset> 
+    <legend><b>Questionário</b></legend> 
+    <br> 
+
+    <p class=inicio><b>Responda as questões abaixo:</b></p><br> 
+    <p><b>Questão 1</b></p><br> 
+    <p>Qual a cidade, considerada pioneira, em mobilidade urbana?</p> 
+    <form> 
+    <input class=i1 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">A- Amsterdã</label> 
+    
+    <div> 
+    <input class=i1 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">B- Alemanha</label> 
+    </div> 
+
+    <input class=i1 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">C- Londres</label> 
+
+    <div> 
+    <input class=i1 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">D- Berlim</label> 
+    </div><br>
+    </form> 
+
+    <p><b>Questão 2</b></p><br> 
+    <p> A Holanda está listada como um dos países referência em mobilidade urbana, e é conhecida, majoritariamente, por um meio de transporte em especifíco. Qual seria esse meio de transporte?</p> 
+    <form>
+    <input class=i2 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">A- Metrôs</label> 
+
+    <div> 
+    <input class=i2 type="radio" id="resposta"name="resposta" volue="resposta"> 
+    <label class="resposta" for="resposta">B- Bicicletas</label> 
+    </div> 
+
+    <input class=i2 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">C- Teleféricos</label> 
+
+    <div> 
+    <input class=i2 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">D- Embarcações</label> 
+    </div> <br> 
+    </form>
+    <p><b>Questão 3</b></p> <br> 
+    <p>Como vimos, a mobilidade urbana sustentável vem ganhando cada vez mais destaque e importância ao longo dos anos (tanto no Brasil quanto no mundo todo). Sendo assim, em Pequim, na China, uma inovação foi instalada para estimular o uso do transporte coletivo e a reciclagem. Essa solução se baseava na(o):</p> 
+    <form>
+    <input class=i3 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">A- Construção de um vagão externo nos trens para estacionar bicicletas</label> 
+    
+    <div> 
+    <input class=i3 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">B- Troca de garrafas por passagens de metrô</label> 
+    </div> 
+
+    <input class=i3 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">C- Aluguel de bicicletas</label> 
+
+    <div> 
+    <input class=i3 type="radio" id="resposta"name="resposta" volue="resposta"> 
+    <label class="resposta" for="resposta">D- Troca de latinhas por passagens de ônibus</label> 
+    </div> <br> 
+    </form>
+    <p><b>Questão 4</b></p> <br> 
+    <p> Escolha a alternativa correta sobre mobilidade urbana: 
+    </p> 
+    <form>
+    <input class=i4 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">A- A mobilidade urbana se restringe apenas no deslocamento e fatores econômicos
+    </label> 
+
+    <div> 
+    <input class=i4 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="resposta" for="resposta">B- A mobilidade urbana se trata dos deslocamentos realizados por veículos automores durante a semana
+    </label> 
+    </div> 
+
+    <input class=i4 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="respostat" for="resposta">C- A mobilidade urbana afeta a interação social e o bem-estar dos indivíduos, mas não interfere no desenvolvimento econômico</label> 
+
+    <div> 
+    <input class=i4 type="radio" id="resposta"name="resposta" volue="resposta" > 
+    <label class="respostat" for="resposta">D- A mobilidade urbana se trata das diferentes formas de deslocamento que os indivíduos usam para realizar suas tarefas diárias
+</label> 
+    </div><br>  
+    </form>
+        <br> 
+    <a href="c:\Users\letic\OneDrive\Área de Trabalho\Respostas.html"><input type="button" value="Conferir respostas" id="button"></a><br>
+</fieldset> 
+</div>
+</body> 
+</html> 
+
+
+
